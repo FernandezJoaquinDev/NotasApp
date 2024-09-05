@@ -8,8 +8,8 @@ const HomeScreen = () => {
       <div className="container">
         <div className="row">
           {datos.map((nota, index) => (
-            <div className="col-md-2 my-3 mx-3">
-              <Notas nota={nota} key={index} />
+            <div className="col-md-2 my-3 mx-3 " key={index}>
+              <Notas nota={nota} />
             </div>
           ))}
         </div>
